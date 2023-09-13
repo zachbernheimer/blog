@@ -5,3 +5,20 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.site-header{
+  background-color: #56c1ff;
+}
+
+.site-footer{
+  border-top: 6px solid #56c1ff;
+  background-color: #d3efff;
+}
+
+.social-media-list {
+  li a {
+      border: 1px solid #6aa8cc;
+      border-radius: 10%;
+      &:hover { border-color: #1a2a33}
+  }
+}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introduction Post"
+author: Zach Bernheimer
 ---
 
 Installing Ruby and Jekyll on MacOS was the most difficult part of setting up this blog. I tried three different Ruby version managers multiple times before I was able to get one to install properly. The final manager I used was [rvm](https://rvm.io), and I was able to resolve the compiler error I had using the advice from [this github thread](https://github.com/rvm/rvm/issues/5367#issuecomment-1663690950)
